@@ -136,7 +136,6 @@ python main.py
 ├── keyboards.py            # Клавиатура бота
 ├── middlewares.py          # безопасный обработчик
 ├── reports.py              # Отчеты
-├── scheduler_task.py       # Планировщик заданий
 ├── states.py               # 
 ├── unit_economics.py       # Юнит-экономика
 ├── financial_processor.py  # Финансовые расчеты
