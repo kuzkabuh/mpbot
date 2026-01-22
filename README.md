@@ -132,9 +132,20 @@ python main.py
 ├── scheduler_tasks.py      # Фоновые задачи и отчеты
 ├── wb_api.py               # Клиент Wildberries API
 ├── ozon_api.py             # Клиент Ozon API
+├── db_functions.py         # Функции для работы в БД
+├── keyboards.py            # Клавиатура бота
+├── middlewares.py          # безопасный обработчик
+├── reports.py              # Отчеты
+├── scheduler_task.py       # Планировщик заданий
+├── states.py               # 
+├── unit_economics.py       # Юнит-экономика
+├── financial_processor.py  # Финансовые расчеты
 ├── handlers/               # Логика Telegram-бота
 │   ├── common.py
 │   ├── excel_handlers.py
+│   ├── reports.py
+│   ├── settings.py
+│   ├── user_handlers.py
 │   └── __init__.py
 ├── requirements.txt
 └── README.md
