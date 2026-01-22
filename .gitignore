@@ -1,0 +1,25 @@
+# Виртуальное окружение
+venv/
+.venv/
+env/
+
+# База данных (если она локальная sqlite)
+*.db
+*.sqlite3
+
+# Конфиденциальные данные
+.env
+config.json
+secret_key.txt
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Логи
+*.log
+
+# Папки IDE
+.vscode/
+.idea/
